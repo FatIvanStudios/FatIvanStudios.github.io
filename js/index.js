@@ -14,3 +14,4 @@ document.addEventListener("DOMContentLoaded", function() {
             viewersElement.innerText = 'Error fetching viewer count';
         });
 });
+// why do you work on live preview but not on github
