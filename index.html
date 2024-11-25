@@ -9,12 +9,37 @@
 <body>
     <div class="main">
         <div class="header">
-            <h2>Fat Ivan Developement Studios</h2>
+            <h2>Fat Ivan Development Studios</h2>
         </div>
-        <br>
-        <button class="btn" id="ok-btn" onclick="change()">Ok</button>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#donate">Donate</a></li>
+            </ul>
+        </nav>
     </div>
-    <h5 id="github-website-viewers">Viewers: </h5>
+
+    <div class="button-container">
+        <button style="display: none;" class="btn" id="ok-btn" onclick="scrollToSection('about')">Explore</button>
+    </div>
+
+    <div id="about" class="section">
+        <h3>About Us</h3>
+        <p>SCARY SCARY SCARY GAME DEVELOPEMNTFASDHIAHDFFD</p>
+    </div>
+
+    <div id="projects" class="section">
+        <h3>Our Projects</h3>
+        <p>Games: </p><a href="">E.V.A.L</a>
+    </div>
+
+    <div id="donate" class="section">
+        <h3>Donate</h3>
+        <p>your support helps us create possibly better games, thank you for considering a donation</p>
+        <button class="btn" id="donate-RBX" onclick="openRobloxGamepasses()">Donate Robux</button><br><br><button class="btn" id="donate-USD" onclick="makeTheEmailVisibleIg()">Donate on paypal!</button><h1 class="email" id="e"> i forgot my paypal email</h1>
+    </div>
+
     <script src="js/index.js"></script>
 </body>
 </html>
